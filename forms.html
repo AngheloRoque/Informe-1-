@@ -10,14 +10,14 @@
 <body>
 
     <div>
-        <h1>Formulario de inscripcion al conferencia de Lenguaje Natural</h2>
+        <h1>Formulario de inscripcion al conferencia de Lenguaje Natural</h1>
         <form action="" class="row g-3 needs-validation" id="form_registro">
             <div class="form-group">
-                <label for="" class="form-label">Nombre y apellidos: </label>
+                <h5>Nombres y Apellidos</h5>
                 <input id="nombres_apellidos" type="text" class="form-control" placeholder="Escriba aqui sus nombres y apellidos">
             </div>
             <div class="form-group">
-                <label for="" class="form-label">Nacionalidad:</label>
+                <h5>Nacionalidad</h5>
                 <select name="" id="nacionalidad" class="form-control">
                     <option value="">Seleccione su nacionalidad</option>
                     <option value="Peruano">Peruano</option>
@@ -25,11 +25,11 @@
                 </select>
             </div>
             <div class="form-group">
-                <label for="" class="form-label">Edad:</label>
+                <h5>Edad</h5>
                 <input id="edad" type="number" class="form-control">
             </div>
-            <div class="d-grid gap-2">
-                <button class="btn btn-outline-success" type="submit">Incribirme</button>
+            <div>
+                <button class="btn btn-warning" type="submit">Incribirme</button>
             </div>
         </form>
         <div class="mt-4" id="tablas_datos" style="display: none;">
@@ -40,6 +40,7 @@
                         <th>Nombre y apellidos</th>
                         <th>Nacionalidad</th>
                         <th>Edad</th>
+                        <th>Correo</th>
                     </tr>
                 </thead>
                 <tbody id="tablebody">
